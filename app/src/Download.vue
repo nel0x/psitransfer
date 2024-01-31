@@ -1,8 +1,5 @@
 <template lang="pug">
   .download-app
-    a.btn.btn-sm.btn-info.btn-new-session(@click='newSession()', :title='$root.lang.newUpload')
-      icon.fa-fw(name="cloud-upload-alt")
-      span.hidden-xs  {{ $root.lang.newUpload }}
     .alert.alert-danger(v-show="error")
       strong
         icon.fa-fw(name="exclamation-triangle")

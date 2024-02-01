@@ -22,7 +22,7 @@ function getSid() {
   if (match) {
     return match[1];
   } else {
-    return md5(uuid()).toString().substr(0, 12);
+    return md5(uuid()).toString().substr(0, 10);
   }
 }
 

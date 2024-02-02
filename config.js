@@ -55,7 +55,7 @@ const config = {
   "fileDownloadedWebhook": null,
   "fileUploadedWebhook": null,
   // Fallback language
-  "defaultLanguage": "en",
+  "defaultLanguage": "de",
   // Limit upload size
   "maxFileSize": null, // Math.pow(2, 30) * 2, // 2GB
   "maxBucketSize": null, // Math.pow(2, 30) * 2, // 10GB
